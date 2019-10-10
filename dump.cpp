@@ -13,9 +13,9 @@
 /*
 // Graph concepts (like STL containers):
 // Do we need them (STL doesn't make containers explicit)
-template<class G> concept bool Graph = false; // general graph operations
-template<class G> concept bool DAG = false;	 // operations simplified for DAGs (any extra operations?)
-template<class G> concept bool Tree = false;	 // operations simplified for trees (any extra operations?)
+template<class G> concept bool Graph=false; // general graph operations
+template<class G> concept bool DAG=false;	 // operations simplified for DAGs (any extra operations?)
+template<class G> concept bool Tree=false;	 // operations simplified for trees (any extra operations?)
 
 // accessor concepts (like STL Iterators):
 template<class G> concept bool Edge_ref = false;	     // most general and slowest
